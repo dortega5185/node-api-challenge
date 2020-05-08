@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned about custom middlewares and its routing feature.
+
 - [ ] Describe Middleware?
+
+It adds extra functionality to our applications by implementing small functions that handle one aspect of our application. It also makes it easy to add modularity to our code.
 
 - [ ] Describe a Resource?
 
+Its the application object. It's what we play with on the backend.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+res.status(200).json(here you can display what you used crud operations on)
+
 - [ ] How can we partition our application into sub-applications?
+
+By making multiple routers for parts of your application and exporting them.
 
 ## Minimum Viable Product
 
